@@ -1,0 +1,925 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 8001 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/a_mor/Downloads/Unity-Project-main/Unity-Project-main/New World
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65235
+Successfully changed project path to: C:/Users/a_mor/Downloads/Unity-Project-main/Unity-Project-main/New World
+C:/Users/a_mor/Downloads/Unity-Project-main/Unity-Project-main/New World
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25860] Host "[IP] 192.168.35.112 [Port] 0 [Flags] 2 [Guid] 1783926198 [EditorId] 1783926198 [Version] 1048832 [Id] WindowsEditor(7,OOING) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25860] Host "[IP] 192.168.35.112 [Port] 0 [Flags] 2 [Guid] 1783926198 [EditorId] 1783926198 [Version] 1048832 [Id] WindowsEditor(7,OOING) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 116.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/a_mor/Downloads/Unity-Project-main/Unity-Project-main/New World/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   Intel
+    VRAM:     4000 MB
+    Driver:   26.20.100.7870
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014475 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (891ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012387 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1202ms)
+			LoadAssemblies (153ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (590ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (115.7 KB). Loaded Objects now: 3586.
+Memory consumption went from 126.7 MB to 126.6 MB.
+Total: 5.292500 ms (FindLiveObjects: 0.435300 ms CreateObjectMapping: 0.381600 ms MarkObjects: 4.222700 ms  DeleteObjects: 0.251000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 454150.529046 seconds.
+  path: Assets/Scripts/Cooking.cs
+  artifactKey: Guid(78c17e4a6d96d9b4eb33e146a2d79444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cooking.cs using Guid(78c17e4a6d96d9b4eb33e146a2d79444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df47d452c733040086e6fe17add00508') in 0.057094 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012261 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.516 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1516ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (979ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (339ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (406ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (84.0 KB). Loaded Objects now: 3589.
+Memory consumption went from 124.8 MB to 124.7 MB.
+Total: 2.919000 ms (FindLiveObjects: 0.279500 ms CreateObjectMapping: 0.179500 ms MarkObjects: 2.340600 ms  DeleteObjects: 0.118400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015621 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.886 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1887ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1452ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (704ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (268ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (84.0 KB). Loaded Objects now: 3592.
+Memory consumption went from 124.8 MB to 124.7 MB.
+Total: 2.617300 ms (FindLiveObjects: 0.251600 ms CreateObjectMapping: 0.144300 ms MarkObjects: 2.115700 ms  DeleteObjects: 0.104900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\a_mor\Downloads\Unity-Project-main\Unity-Project-main\New World\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  9.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9097ms)
+		BeginReloadAssembly (786ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (7382ms)
+			LoadAssemblies (944ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2373ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (578ms)
+			SetupLoadedEditorAssemblies (3091ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (103ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (701ms)
+				ProcessInitializeOnLoadAttributes (2045ms)
+				ProcessInitializeOnLoadMethodAttributes (104ms)
+				AfterProcessingInitializeOnLoad (121ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (98ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 26.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (83.9 KB). Loaded Objects now: 3595.
+Memory consumption went from 124.8 MB to 124.7 MB.
+Total: 16.445900 ms (FindLiveObjects: 0.644600 ms CreateObjectMapping: 0.582700 ms MarkObjects: 14.920500 ms  DeleteObjects: 0.293300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 588.857689 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_supercyan_texture_body.psd
+  artifactKey: Guid(9fc81fa92aefed444a08fa3e5306f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_supercyan_texture_body.psd using Guid(9fc81fa92aefed444a08fa3e5306f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bfc78128b9ac3aec5af3f1818b2dba') in 0.082367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.308712 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65f4f0532fc251cff1d71ca50c23b3d') in 0.079805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182551 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb
+  artifactKey: Guid(8f46310a8b0a8f04a92993c37c713243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll.mdb using Guid(8f46310a8b0a8f04a92993c37c713243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78ab2e193fe00ba20017152d0fdbffb') in 0.015525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089836 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f67ab3dc26da4e8ae25e3f4e491d00') in 0.036498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033995 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c35bbd85dc86dd2ef332d439fd9c360') in 0.007675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070814 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.007187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125940 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/AnimatorControllers/FreeAnimations.controller
+  artifactKey: Guid(d196d39411c9c1240940bbcee1f08238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/AnimatorControllers/FreeAnimations.controller using Guid(d196d39411c9c1240940bbcee1f08238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cf19254d11106e98d6868a1adcf73d') in 0.025637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059729 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb
+  artifactKey: Guid(4f007001a22b3d24dae350342c4d19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.dll.mdb using Guid(4f007001a22b3d24dae350342c4d19c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14165617884203bd176f0ce9c25ccba8') in 0.008875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052385 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee33c8204320077bc2f71ff5adf4078f') in 0.014620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091673 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/High Quality
+  artifactKey: Guid(f6675b6316e6003409debd1b4752736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/High Quality using Guid(f6675b6316e6003409debd1b4752736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6e31329c52dd161cc8fe39488aa95e') in 0.008471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135263 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72200549b97ff12ff44a36c3fabf96c') in 0.015010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029111 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/beanie
+  artifactKey: Guid(f0e78029f45f3b04c910707cea3d343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/beanie using Guid(f0e78029f45f3b04c910707cea3d343a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f60f66d1a60d543a139b31cb1738ec1') in 0.008857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109902 seconds.
+  path: Assets/Plugins/Demigiant
+  artifactKey: Guid(9cd388022678d5f41862f1e687bf22f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant using Guid(9cd388022678d5f41862f1e687bf22f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48027d1136428c7445feb6922e03f974') in 0.008807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.174197 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3950451084668360d05945240589cf11') in 0.014269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145355 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7c74a4b90aced47c55d0730d60d74e') in 0.007290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014588 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic
+  artifactKey: Guid(9697e952681ac9e43a7addd0106cae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic using Guid(9697e952681ac9e43a7addd0106cae15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdee4cd8ae93058514e295cbd643b7a5') in 0.007969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008358 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/beanie/animal_people_beanie_texture.png
+  artifactKey: Guid(3df98a4985a510c4880b1ca606edf643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/beanie/animal_people_beanie_texture.png using Guid(3df98a4985a510c4880b1ca606edf643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed71aba0515eabb28acfd2c6fe446ef') in 0.015516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061404 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb9dc3060b39f33c350934f5d461fd') in 0.007780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003094 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(d45fd55729cf62e49afd8be9371b8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(d45fd55729cf62e49afd8be9371b8243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b7211d20baa682bc483826374cbccf') in 0.007235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170751 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872bee777b7c2d6a31c18934a9fe331b') in 0.007157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003102 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene
+  artifactKey: Guid(834c7d83bfdac054c94b4388bb016343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene using Guid(834c7d83bfdac054c94b4388bb016343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966e4699bc83496aadab8580977bdcd7') in 0.008421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078994 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Shaders/SupercyanShaderLighting.cginc
+  artifactKey: Guid(67feb2b9d2f2e3341b94f96df1b1a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Shaders/SupercyanShaderLighting.cginc using Guid(67feb2b9d2f2e3341b94f96df1b1a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c895ff18874ee4611ca27337fda6d4a5') in 0.012731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030098 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b0d8112e0ac71f04a296c827d66d84') in 0.013411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113101 seconds.
+  path: Assets/Scenes/Cooking.unity
+  artifactKey: Guid(b3bc7ad452a671f44a1d9621b764fc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cooking.unity using Guid(b3bc7ad452a671f44a1d9621b764fc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2944394e14218a395dd560caffe801f5') in 0.007623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030964 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/Mobile
+  artifactKey: Guid(dbde7f91bdc7eef43901a6148ab3fc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/Mobile using Guid(dbde7f91bdc7eef43901a6148ab3fc3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f80067b37f25244393b916ce5a17e2') in 0.007903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260075 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor
+  artifactKey: Guid(b27f58ae5d5c33a4bb2d1f4f34bd036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor using Guid(b27f58ae5d5c33a4bb2d1f4f34bd036d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490396704ecf38966db2bef1ceb8983e') in 0.008715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081091 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Scenes
+  artifactKey: Guid(fcdc7809db518e44d9ee65209cc419a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Scenes using Guid(fcdc7809db518e44d9ee65209cc419a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6f681fe06862a4be02b8d1de692b1f') in 0.008535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043340 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_texture_head.psd
+  artifactKey: Guid(61351ef9e3a7bac40aa825aae03a5d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_texture_head.psd using Guid(61351ef9e3a7bac40aa825aae03a5d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c3f07766cf692f341d402a5a66c549') in 0.015993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062943 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Shaders
+  artifactKey: Guid(81bc5262d768ad9418150f089b145536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Shaders using Guid(81bc5262d768ad9418150f089b145536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67cbb6169bc0930237d51204aad01295') in 0.007234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135050 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures
+  artifactKey: Guid(62709c5f77708754b819911509ea4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures using Guid(62709c5f77708754b819911509ea4d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09c727f881e5f22e3e3d87b2fa163c9') in 0.007704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063175 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2152d5c93d5afef5565731638e01e837') in 0.019582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.152328 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf0741d948d03ed37d7ad6642c8016f') in 0.011648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130209 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5022000b24f09e8c3583c0a79886e5df') in 0.014429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029847 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene/LightingData.asset
+  artifactKey: Guid(98b2126fca2f02c4d9b721a5fd6038eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene/LightingData.asset using Guid(98b2126fca2f02c4d9b721a5fd6038eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1293493ea66a1b7e95269831e56c2eee') in 0.008259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008580 seconds.
+  path: Assets/Plugins/Demigiant/DOTween
+  artifactKey: Guid(a50bd9a009c8dfc4ebd88cc8101225a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween using Guid(a50bd9a009c8dfc4ebd88cc8101225a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59ace6c5fe912c8814c4d7d047c8805') in 0.008426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109171 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Scripts
+  artifactKey: Guid(7363da098b5ae6943a32c278907ab1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Scripts using Guid(7363da098b5ae6943a32c278907ab1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64adfdd06c233594cdda49e68cbac22') in 0.007660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058686 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/DOTween.XML
+  artifactKey: Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/DOTween.XML using Guid(34192c5e0d14aee43a0e86cc4823268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c379140c4ed9717202b9391f7261800d') in 0.032500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024613 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic/High Quality
+  artifactKey: Guid(4513fbe702a63564693d464c66134d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic/High Quality using Guid(4513fbe702a63564693d464c66134d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e77dae3145d1d6138a874ba94df2a79') in 0.002647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091938 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/backpack/animal_people_backbag_1_texture.png
+  artifactKey: Guid(92ab140f0e1c6c94195a0c42fdfd05cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/backpack/animal_people_backbag_1_texture.png using Guid(92ab140f0e1c6c94195a0c42fdfd05cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0031c3c6aa11564a51df68b90d043dd') in 0.016420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058924 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc497803c0650e980b81bcf651e18b86') in 0.007809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447622 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ec19a9bb5cbf8bdad0e1633e175a9e') in 0.007904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005965 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c57d433d24619fb5da4045a41f74e3') in 0.007971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002880 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample
+  artifactKey: Guid(c0c30c38c64baf94eb2ad754579293fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample using Guid(c0c30c38c64baf94eb2ad754579293fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a65fec8b24f6cae67267d75d77b23c') in 0.007221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032607 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_supercyan_texture_body.png
+  artifactKey: Guid(8c6a429c671d6ea42bcb69e2bc0a33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_supercyan_texture_body.png using Guid(8c6a429c671d6ea42bcb69e2bc0a33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d68020e7a0031fb95bd08e49951c5fc') in 0.013944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.326705 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13a08995598fd57e90d1b6802c86467') in 0.014627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.477300 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73107d1020a62e3def86c468d2a05456') in 0.003141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006994 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d594f0f45c0070f56c2dd42a9bd84c') in 0.011282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007985 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39d3b365ae06f4a5d582e5614ba55e') in 0.053196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010903 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML
+  artifactKey: Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML using Guid(2e2c6224d345d9249acfa6e8ef40bb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5511b40f9fe56b1416724a119db1ee') in 0.003158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061353 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile/Mobile_animal_people_wolf_1.prefab
+  artifactKey: Guid(d5b4b9e82e6e45e4283c6435e743b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile/Mobile_animal_people_wolf_1.prefab using Guid(d5b4b9e82e6e45e4283c6435e743b647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35b2bf573edffa2e5df3cdff3862eac') in 0.138327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031592 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Modules
+  artifactKey: Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Modules using Guid(143604b8bad857d47a6f7cc7a533e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813834cbe20eb556b43a4d2a2f036777') in 0.010317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007050 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b707fb793fd60a56581099cf81a197e') in 0.007449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.095132 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16852098a277b7ddedd49287b21bfbc7') in 0.003441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057034 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/Mobile/Mobile_animal_people_wolf_1_SimpleMovement.prefab
+  artifactKey: Guid(8abc6602ebebe8049b23ed8678c589d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement/Mobile/Mobile_animal_people_wolf_1_SimpleMovement.prefab using Guid(8abc6602ebebe8049b23ed8678c589d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febbbb7a4c519ce0b5cb660c965eed2b') in 0.037531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025058 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement
+  artifactKey: Guid(611b6992a2d95884fba7bba1374440eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Simple Movement using Guid(611b6992a2d95884fba7bba1374440eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8393b5ade186c9993eaf4a30d5d87c') in 0.007558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014591 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Models
+  artifactKey: Guid(7830847d4b31a164aa4bf4851d8b792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Models using Guid(7830847d4b31a164aa4bf4851d8b792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221d784c25941d503a77e11365e9d4d1') in 0.007363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.132903 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic/Mobile
+  artifactKey: Guid(d7a4439d3704016479a6cfd9ee8da822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/WithAccessoryLogic/Mobile using Guid(d7a4439d3704016479a6cfd9ee8da822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f684bd80a9300031975cd35970b53a') in 0.008243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.232421 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Animations
+  artifactKey: Guid(4e9d382c4fafdc2478525f4f913f7139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Animations using Guid(4e9d382c4fafdc2478525f4f913f7139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df631701ac62577cfef2103bf8d8dd1') in 0.007485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.676141 seconds.
+  path: Assets/Scripts/CookingEvent.cs
+  artifactKey: Guid(3dbc281a86e193747a5e56da862ea981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CookingEvent.cs using Guid(3dbc281a86e193747a5e56da862ea981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9d13f6f5137ea14d4fc0d9d1a73fb4') in 0.007406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046787 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile
+  artifactKey: Guid(6094a65e89b43a844b7183d854befabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Prefabs/Base/Mobile using Guid(6094a65e89b43a844b7183d854befabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e333e3e1f07288910f1a0ee607d193a') in 0.003185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077322 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_texture_head.png
+  artifactKey: Guid(20e951f0a04bc8b4c8bca18599362610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample/animal_people_wolf_texture_head.png using Guid(20e951f0a04bc8b4c8bca18599362610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c7fa949590ec62e144a7525d03e736') in 0.014311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031697 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7414d00fba92efad4f43e6a93184a2') in 0.013961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.104635 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/AnimatorControllers
+  artifactKey: Guid(9595fc824c7f60747a81393f4d5ab1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/AnimatorControllers using Guid(9595fc824c7f60747a81393f4d5ab1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e11de81082d50a21ea98659b66db3af') in 0.007741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180801 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6352a52e879a0c0ff805f55b173b9b1') in 0.007743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053608 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/backpack
+  artifactKey: Guid(d600dad50622a4745a4bc4621a0eca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/backpack using Guid(d600dad50622a4745a4bc4621a0eca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0360955c412ae35cc1aaf1491f3d61b') in 0.008221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.514777 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(a6cad57f897110241a3502f72fe889d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(a6cad57f897110241a3502f72fe889d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f17c59f2aa30dfabbc283008ed0269') in 0.008177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.101584 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cafdaff4de9f57bfdebcaf3c71222d') in 0.007466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007530 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aca55ad6487aea99b0fecc0a181e403') in 0.007585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012673 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(b157bf9d9d7152e4c903b44a8c3ae58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(b157bf9d9d7152e4c903b44a8c3ae58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36016d4c3c2e1fb82652ba534b44694') in 0.008621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007380 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b4c2a9b67a1b3b08a79aab403f964') in 0.008534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089433 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad4ca8d94c7f6f909fa6e764ea6ddf9') in 0.007755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007118 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7567642c243dc9fb3ba9e1baa24c112') in 0.007878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135430 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene.unity
+  artifactKey: Guid(ac55e85bbceb79c4eab21e4d76ce87ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene.unity using Guid(ac55e85bbceb79c4eab21e4d76ce87ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bac9a10f58f2114a13ca4e896acb73') in 0.007497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145585 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Materials/Mobile
+  artifactKey: Guid(d2281a21d82dcd6428bfc0ae6ded4f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Materials/Mobile using Guid(d2281a21d82dcd6428bfc0ae6ded4f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a7249578dd3ffefbcc70cdf4b6ee4f') in 0.003216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028871 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57c71681c28ad1c1f6290039a0f1cc9') in 0.007880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002964 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Materials/High Quality
+  artifactKey: Guid(2ef47e9599411294186f2d29008782e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Materials/High Quality using Guid(2ef47e9599411294186f2d29008782e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251891460a2468892528885c43560294') in 0.002675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118251 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e769562f990412c2f440aec991e70abc') in 0.007045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.157382 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d090dd1fbec8f29ff95db6006eecd6f') in 0.007596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109101 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Shaders/SupercyanShader.shader
+  artifactKey: Guid(46879f491c4ffb442a02036de7cab3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Shaders/SupercyanShader.shader using Guid(46879f491c4ffb442a02036de7cab3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3dfd21a60b7c158acfa35a35594ede') in 0.007250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025582 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5343dd66316b9eb35bafbffda078a') in 0.007568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.329600 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42332d2173f9a62dc7ec89edcf9988b') in 0.008374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046014 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506c69260bf7c1cdf33a8f62db534a1') in 0.008910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.204124 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166bc1abaeb281fc6783cc3fe76c458') in 0.008956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.155499 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe342ddaeddc525a77e6f203ceeefc6a') in 0.008719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013491 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ecb2fa8dd83b4749a13d0b14c984c2') in 0.008585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094196 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/backpack/animal_people_backbag_1_texture.psd
+  artifactKey: Guid(e70d129ef8c74d94d97eaa20cec235ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/backpack/animal_people_backbag_1_texture.psd using Guid(e70d129ef8c74d94d97eaa20cec235ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68779650f7f0a918ebfcd7b953851f81') in 0.013355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98268f32841d37a7690ec8fd38a25b7a') in 0.008720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006881 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML
+  artifactKey: Guid(3df9fdaadcb4c394e826a4d8d20bb952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.XML using Guid(3df9fdaadcb4c394e826a4d8d20bb952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f63423a9c1efd08af8b241d082e794a') in 0.007737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002565 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample
+  artifactKey: Guid(b8315efc5ae00e6428bfc906ceda17c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/Supercyan Sample using Guid(b8315efc5ae00e6428bfc906ceda17c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254695ea28bc8f8234e4a6d812edaae7') in 0.008228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142188 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Materials
+  artifactKey: Guid(2b98ab9fbf67fda4ea99d3445b858829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Materials using Guid(2b98ab9fbf67fda4ea99d3445b858829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1c70b9126507270775b4e31f2c0671') in 0.007654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097259 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene/ReflectionProbe-0.exr
+  artifactKey: Guid(69ed22ce0c3b49942a75b9ef0d72db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Scenes/DemoScene/ReflectionProbe-0.exr using Guid(69ed22ce0c3b49942a75b9ef0d72db1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187ee24bee0b41bdea52d9e2e324e4ef') in 0.050059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008822 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Character Pack Free Animal people sample.pdf
+  artifactKey: Guid(bfd50b919d16d3747be7a00287c41767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Character Pack Free Animal people sample.pdf using Guid(bfd50b919d16d3747be7a00287c41767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37379d4b4bcfda0f20ae57f0920fadfe') in 0.008348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048113 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/readme.txt
+  artifactKey: Guid(fccfc62abf2eb0a4db614853430894fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/readme.txt using Guid(fccfc62abf2eb0a4db614853430894fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd59a5c99bf9ecf31b5ee74566be584') in 0.009651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003369 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a52c99a9f8f9ac4f70e63a6bb6f32') in 0.007187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.111090 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll.mdb
+  artifactKey: Guid(cee7901aa47968a46af805b3a7632bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/DOTweenUpgradeManager.dll.mdb using Guid(cee7901aa47968a46af805b3a7632bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e055965553c0b06902ba2c8f6679b5') in 0.008711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009153 seconds.
+  path: Assets/Supercyan Character Pack Animal People Sample/Textures/beanie/animal_people_beanie_texture.psd
+  artifactKey: Guid(82316cac3a5d67f4b9c3e05e7ee92e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Character Pack Animal People Sample/Textures/beanie/animal_people_beanie_texture.psd using Guid(82316cac3a5d67f4b9c3e05e7ee92e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e2955d6e1c69e8533789a18e49f263') in 0.015230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.131822 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs
+  artifactKey: Guid(0034ebae0c2a9344e897db1160d71b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs using Guid(0034ebae0c2a9344e897db1160d71b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb66dee1f1b6b75eb72bb02625885f4') in 0.008309 seconds 
